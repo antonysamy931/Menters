@@ -46,56 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Data\MentorMeEntities.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MentorMeEntities.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\MentorMeEntities.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MentorMeEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\MentorMeEntities.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MentorMeEntities.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Data\UserProfile.cs">
-      <DependentUpon>MentorMeEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\webpages_Membership.cs">
-      <DependentUpon>MentorMeEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\webpages_OAuthMembership.cs">
-      <DependentUpon>MentorMeEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Data\webpages_Roles.cs">
-      <DependentUpon>MentorMeEntities.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Data\MentorMeEntities.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MentorMeEntities.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Data\MentorMeEntities.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MentorMeEntities.edmx</DependentUpon>
-      <LastGenOutput>MentorMeEntities.Context.cs</LastGenOutput>
-    </None>
-    <None Include="Data\MentorMeEntities.edmx.diagram">
-      <DependentUpon>MentorMeEntities.edmx</DependentUpon>
-    </None>
-    <None Include="Data\MentorMeEntities.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MentorMeEntities.edmx</DependentUpon>
-      <LastGenOutput>MentorMeEntities.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
